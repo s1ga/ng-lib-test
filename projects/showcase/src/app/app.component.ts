@@ -7,7 +7,7 @@ import { LibComponent } from '../../../lib/src/lib/lib.component';
   standalone: true,
   imports: [RouterOutlet, LibComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'Lib showcase';
