@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/s1ga/ng-lib-test/compare/v1.0.0...v1.0.1) (2024-01-26)
+
+
+### Bug Fixes
+
+* rename library ([a240675](https://github.com/s1ga/ng-lib-test/commit/a240675bb73870a358db148e6d193fae2f3b4607))
+
 # 1.0.0 (2024-01-26)
 
 
