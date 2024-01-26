@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { LibComponent } from '../../../lib/src/lib/lib.component';
+import { LibComponent } from '../../../siga-test-lib/src/lib/lib.component';
 
 @Component({
   selector: 'app-root',

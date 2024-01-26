@@ -1,6 +1,6 @@
 {
   "branches": ["master"],
-  "pkgRoot": "dist/lib",
+  "pkgRoot": "dist/siga-test-lib",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",

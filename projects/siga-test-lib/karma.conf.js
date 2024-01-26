@@ -26,7 +26,7 @@ module.exports = function (config) {
     },
     coverageReporter: {
       // eslint-disable-next-line @typescript-eslint/no-var-requires
-      dir: require("path").join(__dirname, "../../coverage/lib"),
+      dir: require("path").join(__dirname, "../../coverage/siga-test-lib"),
       subdir: ".",
       reporters: [{ type: "html" }, { type: "text-summary" }, { type: "lcov" }],
     },

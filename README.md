@@ -1,13 +1,17 @@
 # NgLib
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This is a demo project that shows how to release a library to npm.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -18,7 +22,7 @@ This is a demo project that shows how to release a library to npm.
 ## Installation
 
 ```
-npm i lib
+npm i siga-test-lib
 ```
 
 ## Usage
@@ -31,6 +35,7 @@ npm i lib
 })
 export class MyComponent {}
 ```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
