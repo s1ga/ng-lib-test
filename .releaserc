@@ -1,0 +1,18 @@
+{
+  "branches": ["master"],
+  "pkgRoot": "dist/lib",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    ["@semantic-release/exec", {
+      "prepareCmd": "VERSION=${nextRelease.version} npm run bump-version"
+    }],
+    ["@semantic-release/git", {
+      "assets": ["package.json", "CHANGELOG.md"],
+      "message": "feat(release): ${nextRelease.version} [skip ci]"
+    }],
+    "@semantic-release/github"
+  ]
+}
