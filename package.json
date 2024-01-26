@@ -4,7 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm run build:lib && npm run build:showcase",
+    "build:lib": "ng build lib",
+    "build:showcase": "ng build showcase",
+    "postbuild:lib": "npm run generate:toc && cp README.md dist/lib && cp LICENSE dist/lib",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:showcase": "node dist/showcase/server/server.mjs",
@@ -13,7 +16,8 @@
     "format:check": "npm run format:check-lib && npm run format:check-showcase",
     "format:write-lib": "prettier --write \"projects/lib/**/*.{ts,js,json,html,scss}\"",
     "format:write-showcase": "prettier --write \"projects/showcase/**/*.{ts,js,json,html,scss}\"",
-    "format:write": "npm run format:write-lib && npm run format:write-showcase"
+    "format:write": "npm run format:write-lib && npm run format:write-showcase",
+    "generate:toc": "npx doctoc README.md"
   },
   "private": true,
   "dependencies": {
